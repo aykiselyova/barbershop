@@ -146,82 +146,88 @@
           </ol>
         </section>
       </div>
-      <section class="contacts">
-        <h2 class="contacts-title">Контакты</h2>
-        <h3 class="contacts-subtitle">Барбершоп "Бородинский"</h3>
-        <address class="contacts-address">
-          <p class="contacts-address-text">
-            Санкт-Петербург, набережная реки Карповки, 5, литера П.
+      <div class="index-column">
+        <section class="contacts">
+          <h2 class="contacts-title">Контакты</h2>
+          <h3 class="contacts-subtitle">Барбершоп "Бородинский"</h3>
+          <address class="contacts-address">
+            <p class="contacts-address-text">
+              Санкт-Петербург, набережная реки Карповки, 5, литера П.
+            </p>
+            <a class="contacts-phone" href="tel:88005558628">8 800 555-86-28</a>
+          </address>
+          <h3 class="contacts-subtitle">Время работы</h3>
+          <ul class="contacts-schedule">
+            <li class="contacts-schedule-item">пн—пт: с 10:00 до 22:00</li>
+            <li class="contacts-schedule-item">сб—вс: с 10:00 до 19:00</li>
+          </ul>
+          <a class="button" href="#">Как проехать</a>
+          <a class="button button-feedback" href="#">Обратная связь</a>
+        </section>
+        <section class="appointment">
+          <h2 class="appointment-title">Записаться</h2>
+          <p>
+            Укажите желаемую дату и время и мы свяжемся с вами для подтверждения
+            брони.
           </p>
-          <a class="contacts-phone" href="tel:88005558628">8 800 555-86-28</a>
-        </address>
-        <h3 class="contacts-subtitle">Время работы</h3>
-        <ul class="contacts-schedule">
-          <li class="contacts-schedule-item">пн—пт: с 10:00 до 22:00</li>
-          <li class="contacts-schedule-item">сб—вс: с 10:00 до 19:00</li>
-        </ul>
-        <a class="button" href="#">Как проехать</a>
-        <a class="button button-feedback" href="#">Обратная связь</a>
-      </section>
-      <section class="appointment">
-        <h2 class="appointment-title">Записаться</h2>
-        <p>
-          Укажите желаемую дату и время и мы свяжемся с вами для подтверждения
-          брони.
-        </p>
-        <form
-          class="appointment-form"
-          action="https://echo.htmlacademy.ru/"
-          method="post"
-        >
-          <p class="appointment-form-date">
-            <span class="form-label form-label-icon">
-              <label for="appointment-date">Дата</label>
-              <button class="info" type="button">
-                <span class="visually-hidden"
-                  >Посмотреть дополнительную информацию</span
-                >
-              </button>
-            </span>
-            <input
-              type="text"
-              id="appointment-date"
-              name="appointment-date"
-              placeholder="01.01.2020"
-            />
-          </p>
-          <p class="appointment-form-time">
-            <span class="form-label form-label-icon">
-              <label for="appointment-time">Время</label>
-              <button class="info" type="button">
-                <span class="visually-hidden"
-                  >Посмотреть дополнительную информацию</span
-                >
-              </button>
-            </span>
-            <input
-              type="text"
-              id="appointment-time"
-              name="appointment-time"
-              placeholder="10:00"
-            />
-          </p>
-          <p class="appointment-form-phone">
-            <label for="appointment-phone">Телефон</label>
-            <input
-              type="text"
-              id="appointment-phone"
-              name="appointment-phone"
-              placeholder="+7 800 000-00-00"
-            />
-          </p>
-          <p class="appointment-form-name">
-            <label for="appointment-name">Ваше имя</label>
-            <input type="text" id="appointment-name" name="appointment-name" />
-          </p>
-          <button class="button" type="submit">Записаться</button>
-        </form>
-      </section>
+          <form
+            class="appointment-form"
+            action="https://echo.htmlacademy.ru/"
+            method="post"
+          >
+            <p class="appointment-form-date">
+              <span class="form-label form-label-icon">
+                <label for="appointment-date">Дата</label>
+                <button class="info" type="button">
+                  <span class="visually-hidden"
+                    >Посмотреть дополнительную информацию</span
+                  >
+                </button>
+              </span>
+              <input
+                type="text"
+                id="appointment-date"
+                name="appointment-date"
+                placeholder="01.01.2020"
+              />
+            </p>
+            <p class="appointment-form-time">
+              <span class="form-label form-label-icon">
+                <label for="appointment-time">Время</label>
+                <button class="info" type="button">
+                  <span class="visually-hidden"
+                    >Посмотреть дополнительную информацию</span
+                  >
+                </button>
+              </span>
+              <input
+                type="text"
+                id="appointment-time"
+                name="appointment-time"
+                placeholder="10:00"
+              />
+            </p>
+            <p class="appointment-form-phone">
+              <label for="appointment-phone">Телефон</label>
+              <input
+                type="text"
+                id="appointment-phone"
+                name="appointment-phone"
+                placeholder="+7 800 000-00-00"
+              />
+            </p>
+            <p class="appointment-form-name">
+              <label for="appointment-name">Ваше имя</label>
+              <input
+                type="text"
+                id="appointment-name"
+                name="appointment-name"
+              />
+            </p>
+            <button class="button" type="submit">Записаться</button>
+          </form>
+        </section>
+      </div>
     </main>
     <footer class="page-footer">
       <section class="footer-contacts">
