@@ -130,3 +130,21 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
+
+.page-footer {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #242424;
+  background-image: url("../images/bg-noisy.png");
+  background-repeat: repeat;
+}
+
+.page-footer a {
+  color: #ffffff;
+}
+
+.page-footer .htmlacademy-link {
+  font-size: 14px;
+  color: #dbb590;
+}
