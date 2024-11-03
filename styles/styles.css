@@ -113,3 +113,20 @@ body {
   text-decoration-line: underline;
   color: #242424;
 }
+
+.appointment-title {
+  font-size: 32px;
+  line-height: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.appointment-form {
+  color: #595959;
+}
+
+.form-label {
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
