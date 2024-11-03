@@ -45,3 +45,23 @@ body {
   background-color: #fbf7f4;
   background-image: url("../images/bg-noisy.png");
 }
+
+.services {
+  text-transform: uppercase;
+}
+
+.services-title {
+  font-size: 32px;
+  line-height: 35px;
+  font-weight: 700;
+}
+
+.services-list {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.services-price {
+  color: #af7842;
+}
