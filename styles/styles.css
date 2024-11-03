@@ -7,6 +7,18 @@ body {
   background-color: #fbf7f4;
 }
 
+.button {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 .page-header {
   color: #ffffff;
   background-color: #000000;
